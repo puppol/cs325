@@ -1,0 +1,18 @@
+0. What's your name?
+Luke Puppo
+1. Approximately how many hours did you spend on this assignment?
+Approx 5 hours
+2. Would you rate it as easy, moderate, or difficult?
+Moderate
+3. Did you work on it mostly alone, or mostly with other people?
+   Note you are encouraged to discuss with your classmates, 
+   but each students should submit his/her own code.
+Mostly alone
+
+4. How deeply do you feel you understand the material it covers (0%-100%)? 
+80%
+
+5. Which part(s) of the course you like the most so far?
+I like python, I like looking at different algorithms
+6. Which part(s) of the course you dislike the most so far?
+I dislike runtimes because I still don't have a full understanding of python list comprehension runtimes.

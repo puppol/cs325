@@ -1,0 +1,53 @@
+1)
+   (a) Describe a greedy solution.
+	Prioritizing value over the weight, maximizing value but not value for the bag weight.
+   (b) Show a counterexample to the greedy solution.
+	Given bag size of 3,
+	(1,2), (2,3)
+	Would yield [1,1] instead of [3,0]
+   (c) Define the DP subproblem 
+	For each pair, what is the best bag that the pair can be apart of
+   (d) Write the recurrence relations
+	B = max(value + B, B(n-1)
+   (e) Do not forget base cases
+	1 <= i <= n, 0 <= w <= W
+   (f) Analyze the space and time complexities
+	Space: O(n) when mortized 
+	Time: O(n) when mortized	
+
+
+
+2)
+   (a) Describe a greedy solution.
+	After sorting by efficiency (v/w), pick from top to bottom and fill the bag
+   (b) Show a counterexample to the greedy solution.
+	Bag Size = 5
+	(4,7,2), (2,3,5), (3,5,2)
+	Would yield [0,5] instead of [2,3]	
+   (c) Define the DP subproblem 
+	Is it better to use the value of the bag plus the value of the pair, or the value of the bag with weight - n and i - 1
+   (d) Write the recurrence relations
+	B = max(value + B(n-1, weight-w[n]), B(n-1))
+   (e) Do not forget base cases
+	1 <= i <= n, 0 <= w <= W
+   (f) Analyze the space and time complexities
+	Space: O(n*w) => O(n)
+	Time: O(n*w) => O(n)
+
+
+
+0. What's your name?
+Luke Puppo
+1. Approximately how many hours did you spend on this assignment?
+15
+2. Would you rate it as easy, moderate, or difficult?
+Very hard
+
+3. Did you work on it mostly alone, or mostly with other people?
+50/50
+4. How deeply do you feel you understand the material it covers (0%-100%)? 
+70%
+5. Which part(s) of the course you like the most so far?
+I love the videos that are posted
+6. Which part(s) of the course you dislike the most so far?
+This assignment was hard to get in the time zone

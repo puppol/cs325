@@ -1,0 +1,17 @@
+0)
+	(a) merge sort - stable
+	(b) quick sort with first element - unstable, stable with insertion
+	(c) quick sort with randomized pivot - unstable, stable with insertion
+	(d) selection sort - unstable
+	(e) insertion sort - stable
+	(f) heap sort - unstable
+
+
+
+
+Debrief:
+1. 3 hours spent
+2. Easy
+3. Mostly alone
+4. 85%
+5. N/A

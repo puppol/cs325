@@ -1,0 +1,71 @@
+0. There are two methods for building a heap from an unsorted array:
+   (1) insert each element into the heap  --- O(nlogn)
+   (2) heapify (top-down)                 --- O(n)
+
+   (a) Derive these time complexities.
+	1.  As it is a binary tree, it takes log(n) time to insert, and you are inserting n number items, yielding O(nlogn)
+
+	2. Each node checks for a larger child, and swaps itself if it needs to, up tp n number of nodes, yielding O(n)
+
+   (b) Use a long list of random numbers to show the difference in time. (Hint: random.shuffle)
+	1,000,000 - heapify -> 0.16089 s
+	1,000,000 - heapq.heappush() -> 0.61928 s
+
+	sorted:
+	1,000,000 - heapify -> 0.04145 s
+	1,000,000 - heapq.heappush() -> 0.39682 s
+
+   (c) What about sorted or reversely-sorted numbers?
+	1,000,000 - heapify -> 0.04145 s
+	1,000,000 - heapq.heappush() -> 0.39682 s
+	reversed had similar times
+
+
+
+
+
+(a) enumerate all n^2 pairs, sort, and take top n.
+	O(n^2)
+
+(b) enumerate all n^2 pairs, but use qselect from hw1.
+	O(n^2)
+
+(c) Dijkstra-style best-first, only enumerate O(n) (at most 2n) pairs.
+       Hint: you can use Python's heapq module for priority queue.
+
+	O(nlogn)
+
+
+Kmergesort
+Q: What is the complexity? Write down the detailed analysis in report.txt.
+Best case - O(nlogn)
+Average case - O(nlogn)
+Worst case - O(nlogn) - Using merge implementation, maintains nlogn worst case
+
+
+Datastream	
+Q: What is your complexity? Write down the detailed analysis in report.txt.
+This implementation must be O(nlogn) because it runs n number of times, and pushing to the heap is logn, meaning overall complexity is O(nlogn)
+
+
+
+
+
+Debriefing (required!): --------------------------
+
+0. What's your name?
+Luke Puppo
+1. Approximately how many hours did you spend on this assignment?
+	6
+2. Would you rate it as easy, moderate, or difficult?
+	Difficult
+3. Did you work on it mostly alone, or mostly with other people?
+   Note you are encouraged to discuss with your classmates, 
+   but each students should submit his/her own code.
+	50/50
+4. How deeply do you feel you understand the material it covers (0%-100%)? 
+85%
+5. Which part(s) of the course you like the most so far?
+I like the lectures, and the difficulty of finding the best algorithms
+6. Which part(s) of the course you dislike the most so far?
+First quiz was rough, and I wish we spent more time on deriving complexity, but what has been done so far has been very helpful

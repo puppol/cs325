@@ -1,0 +1,25 @@
+1.
+	Space: O(n^2)
+	Time: O(n^3)
+
+2. 
+	Space: O(n)
+	Time: O(n^2)
+
+3. 
+	Space: O(n^2 + k)
+	Time: O(n^3 + n^2 klogk)
+
+
+0. What's your name?
+Luke Puppo
+1. Approximately how many hours did you spend on this assignment?
+9
+2. Would you rate it as easy, moderate, or difficult?
+Difficult, last problem was unsolvable on my own
+3. Did you work on it mostly alone, or mostly with other people?
+Mostly alone
+4. How deeply do you feel you understand the material it covers (0%-100%)? 
+70%
+5. Any other comments?
+Very cool, but very difficult. It was nice to have the in class coding to get a foundation laid out

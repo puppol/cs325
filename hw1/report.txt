@@ -1,0 +1,31 @@
+What's the best-case, worst-case, and average-case time complexities of quicksort?
+ - Best-case is O(nlogn) and this can be described when each partition is chosen with a middle pivot
+ - Worst-case is O(n^2) and this can be described when the pivot is always chosen to be the greatest or lowest value.
+ - Average-case is O(nlogn) and this is because on average, the nearest to middle value is chosen on a partition
+
+
+What are the time complexities for the operations implemented?
+ - Sorted
+   - Best-case is O(n) because it only touches each element once
+   - Worst-case might be O(nlogn) because it has to check each element, and might need to check it again.
+ - Search 
+   - Best-case is O(n) because I use the quick sort search to verify, and it doesn't have to go through every option
+   - Worst-case might be O(nlogn) because it has to check each element, and might need to check it again.
+ - Insert
+   - Base-case is O(n) because only have to touch up to all elements once.
+   - Worst-case might be O(n) but I have a hard time explaining this one/
+
+
+
+Debriefing (required!): --------------------------
+
+1. Approximately how many hours did you spend on this assignment?
+ - I spent about 9 hours in total on this assignment. 
+2. Would you rate it as easy, moderate, or difficult?
+ - I thought it was difficult, mainly because I have trouble with runtime complexities, A review of this would be very helpful as 261 didn't dive into how to calculate them for recursion.
+3. Did you work on it mostly alone, or mostly with other people?
+ - I worked on it mostly alone.
+4. How deeply do you feel you understand the material it covers (0%–100%)? 
+ - 65%, I would like more help understanding the recursive implantation of insert with python.
+5. Any other comments?
+ - It was a tough first assignment, but I see its value. Perhaps we had a few more days to work on it and talk about it in class, it would be more reasonable.

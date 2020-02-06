@@ -1,0 +1,48 @@
+0. For the following graphs, decide whether they are
+    (1) directed or undirected, (2) dense or sparse, and (3) cyclic or acyclic:
+
+    (a) Facebook
+        undirected, sparse, cyclic
+    (b) Twitter
+        directed, sparse, cyclic
+    (c) a family
+        undirected, dense, cyclic
+    (d) V=airports, E=direct_flights
+        directed, sparse, cyclic
+    (e) a mesh
+	directed, sparce, cyclic
+    (f) V=courses, E=prerequisites
+	directed, sparse, acyclic
+    (g) a tree
+	undirected, sparse, asyclic
+    (h) V=linux_software_packages, E=dependencies
+	directed, sparse, asyclic
+    (i) DP subproblems for 0-1 knapsack
+	directed, sparse, asyclic
+    Can you name a very big dense graph?
+	V=house, E=road
+
+
+
+questions: 
+   (a) did you realize that bottom-up implementations of DP use (implicit) topological orderings?
+       e.g., what is the topological ordering in your (or my) bottom-up bounded knapsack code?
+	
+	no
+   (b) what about top-down implementations? what order do they use to traverse the graph?
+	starting at the top
+   (c) does that suggest there is a top-down solution for topological sort as well? 
+	yes
+
+0. What's your name?
+Luke Puppo
+1. Approximately how many hours did you spend on this assignment?
+2
+2. Would you rate it as easy, moderate, or difficult?
+	easy/moderate
+3. Did you work on it mostly alone, or mostly with other people?
+	alone
+4. How deeply do you feel you understand the material it covers (0%-100%)? 
+	90%
+5. Any other comments?
+	Nope

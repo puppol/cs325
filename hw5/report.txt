@@ -1,0 +1,25 @@
+Q: What's the complexity?
+O(n) because it stores the previous reponses, meaning it does not need to recalculate
+
+2.
+Qa) O(n^2) as it needs to do two recursive calls through range(n)
+Qb) This is called the Catalan number series.
+
+
+
+
+
+0. What's your name?
+Luke Puppo
+1. Approximately how many hours did you spend on this assignment?
+6 hours approx - first question took me a while
+2. Would you rate it as easy, moderate, or difficult?
+First problem was hard, second and third were easy
+3. Did you work on it mostly alone, or mostly with other people?
+I worked alone until I worked on the first, then I whiteboarded
+4. How deeply do you feel you understand the material it covers (0%-100%)? 
+80%
+5. Which part(s) of the course you like the most so far?
+I liked this assignment, it wasnt too hard but it made me think. I also understand recursion better.
+6. Which part(s) of the course you dislike the most so far?
+Wish there was more calculating of complexity	

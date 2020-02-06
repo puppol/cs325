@@ -1,0 +1,21 @@
+1. 
+Time Complexity = O((V+E) log(n))
+Space Complexity = O(V)
+
+
+2. Heapify Verison
+Time complexity = O(k + nlog(k))
+Space Complexity = O(k)
+
+0. What's your name?
+Luke Puppo
+1. Approximately how many hours did you spend on this assignment?
+2 Hours
+2. Would you rate it as easy, moderate, or difficult?
+Moderate
+3. Did you work on it mostly alone, or mostly with other people?
+Other people
+4. How deeply do you feel you understand the material it covers (0%-100%)? 
+95%
+5. Any other comments?
+Nope
